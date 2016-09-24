@@ -1,4 +1,6 @@
-# Manrog Component Curl
+# Manrog Network Component Curl
+
+[![Build Status](https://travis-ci.org/mrVictorios/manrog-compontents-network-curl.svg?branch=master)](https://travis-ci.org/mrVictorios/manrog-compontents-network-curl)
 
 This component works as adapter for cURL in a OOP environment. It deliver a wrapper class wich contains the 
 exactly methods of CURL and a UrlRequest class for creating a CURL request faster.

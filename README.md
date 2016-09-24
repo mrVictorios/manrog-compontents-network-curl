@@ -41,6 +41,18 @@ UrlRequest
     // performs init, exec and close with CURLOPT_RETURNTRANSFER 1
     $rq->execute();
 ```
+```php
+    <?php
+    
+    use manrog\components\network\curl\UrlRequest;
+    use manrog\components\network\curl\Curl;
+    
+    // get a comfort instance
+    $rq = new UrlRequest('http://www.example.com', new Curl());
+    $rq->addCurlOption(CURLOPT_RETURNTRANSFER, 1);
+    //...
+    $rq->execute();
+```
 
 ## Install (for development)
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace manrog\components\network\Curl;
+namespace manrog\components\network\curl;
 
 /**
  * Class Curl

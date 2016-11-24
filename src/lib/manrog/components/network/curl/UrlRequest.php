@@ -178,7 +178,7 @@ class UrlRequest implements UrlRequestInterface
      */
     public function addCurlOption($option, $value): UrlRequestInterface
     {
-        $this->options[$option] = $value; // use doublequot to get safe stores ass assoc array and not as numeric
+        $this->options[$option] = $value;
 
         return $this;
     }

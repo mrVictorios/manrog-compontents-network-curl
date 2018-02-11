@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. This project adheres to.
 
+## [1.2.2]
+### Changed
+- Update Readme
+
 ## [1.2.1]
 ### Changed
 - remove php7.0 support

@@ -59,9 +59,8 @@ UrlRequest
 Install for development and Validate the Project
 
 ```bash
-    $ php ./env/files/install-composer.php
-    $ php composer.phar install
-    $ ./bin/phpunit -c phpunit.xml
+    $ composer install
+    $ ./bin/phpunit
 ```
 
 ### How get the documentation?

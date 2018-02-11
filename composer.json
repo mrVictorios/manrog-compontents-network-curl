@@ -9,7 +9,7 @@
     "network",
     "communication"
   ],
-  "version"           : "1.2.2",
+  "version"           : "1.2.3",
   "homepage"          : "http://www.manrog.de",
   "minimum-stability" : "dev",
   "require"           : {

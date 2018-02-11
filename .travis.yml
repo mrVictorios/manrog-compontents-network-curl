@@ -14,8 +14,7 @@ install:
   - travis_retry composer install --no-interaction --prefer-source
 
 script:
-  - ./bin/phpunit -c phpunit.xml
-  - xmllint --noout --schema phpunit.xsd phpunit.xml
+  - ./bin/phpunit
 
 notifications:
   webhooks:

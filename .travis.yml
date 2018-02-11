@@ -1,7 +1,6 @@
 language: php
 
 php:
-  - 7.0
   - 7.1
   - 7.2
 
@@ -9,6 +8,7 @@ sudo: false
 
 before_install:
   - composer self-update
+  - mkdir build
 
 install:
   - travis_retry composer install --no-interaction --prefer-source

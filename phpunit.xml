@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="phpunit.xsd"
-         bootstrap="./tests/bootstrap.php"
+<phpunit bootstrap="./tests/bootstrap.php"
          backupGlobals="false"
          backupStaticAttributes="false"
          verbose="false"
@@ -11,7 +8,7 @@
          convertWarningsToExceptions="true"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="crawler">
+        <testsuite name="unit">
             <directory>tests/src/lib</directory>
         </testsuite>
     </testsuites>
